@@ -8,15 +8,10 @@
 <% @ships.each do |ship| %>
 <div class="ship">
 
-<h2>Display your first ship here</h2>
-<p>Name: <%= ship["ship_name_1"] %></p>
-<p>Type: <%= ship["ship_type_1"] %></p>
-<p>Booty: <%= ship["ship_booty_1"] %></p>
 
-<h2>Display your second ship here</h2>
-<p>Name: <%= ship["ship_name_2"] %></p>
-<p>Type: <%= ship["ship_type_2"] %></p>
-<p>Booty: <%= ship["ship_booty_2"] %></p>
+<h2><p>Name: <%= ship.name %></p></h2>
+<p>Type: <%= ship.type %></p>
+<p>Booty: <%= ship.booty %></p>
 
 <% end %>
 
